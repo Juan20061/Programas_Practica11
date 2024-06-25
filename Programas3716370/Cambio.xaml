@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Programas3716370.Cambio"
+             Title="Cambio">
+    <VerticalStackLayout>
+        <Label 
+            Text="Cambio de clientes"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
+        <Entry x:Name="entry1" Placeholder="Dinero del cliente"
+                BackgroundColor="Gray" Margin="10"/>
+        
+        <Entry x:Name="entry2" Placeholder="Costo del articulo"
+         BackgroundColor="Gray" Margin="10"/>
+        
+        <Entry x:Name="entry3" Placeholder="Dinero del cliente"
+          Margin="10"/>
+
+        <Button Text="Calcular" Clicked="Button_Clicked" />
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Programas3716370.Dinosaurio"
+             Title="Dinosaurio">
+    <VerticalStackLayout>
+        <Label 
+            Text="Dinosaurio"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry x:Name="entry1" Placeholder="Digite el nombre"
+BackgroundColor="Gray" Margin="10"/>
+
+
+        <Entry x:Name="entry2" Placeholder="Digite el peso en kg"
+       BackgroundColor="Gray" Margin="10"/>
+
+       
+        <Entry x:Name="entry3" Placeholder="Digite la altura en mts"
+BackgroundColor="Gray" Margin="10"/>
+
+        <Button Text="Calcular" Clicked="Button_Clicked"/>
+
+        <Label x:Name="labelResultadoPeso" Text="El peso en libras es: " FontSize="Medium"/>
+        <Label x:Name="labelResultadoAltura" Text="La altura en centímetros es: " FontSize="Medium"/>
+    </VerticalStackLayout>
+</ContentPage>
