@@ -29,4 +29,9 @@ public partial class Menu : ContentPage
         await Navigation.PushAsync(new Gasolinera());
 
     }
+
+    private void Button_Clicked_4(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new About());
+    }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Programas3716370.NewPage1"
+             Title="NewPage1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Bienvenidos a nuestra Aplicación"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="10"/>
+        <Image
+            Source="gitHub.png"
+            WidthRequest="400"
+            VerticalOptions="Center"
+            Margin="10"/>   
+        <Label
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Text="Somos estudiantes que trabajan colaborativamente. Con ayuda de GitHub, podemos hacer cambios desde donde este cada uno de nuestros compañeros sin tener que estar juntos en un mismo computador para ver el mismo código."/>
+    </VerticalStackLayout>
+</ContentPage>
