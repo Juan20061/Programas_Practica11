@@ -30,7 +30,8 @@ public partial class Menu : ContentPage
 
     }
 
-    private void Button_Clicked_4(object sender, EventArgs e)
+    private async void Button_Clicked_4(object sender, EventArgs e)
     {
+        await Navigation.PushAsync(new About());
     }
 }
