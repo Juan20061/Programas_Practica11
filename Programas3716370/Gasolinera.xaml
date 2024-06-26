@@ -3,22 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Programas3716370.Gasolinera"
              Title="Gasolinera">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <ScrollView>
+        <VerticalStackLayout>
 
-        <Entry x:Name="entry1" Placeholder="Digite los galones "
-BackgroundColor="Gray" Margin="10"/>
+            <Image Source="gasolin.png"
+                   WidthRequest="400"
+                   VerticalOptions="Center"
+                   Margin="10"/>
+            
+            <Entry x:Name="entry1" Placeholder="Digite los galones "
+                   Margin="10"/>
 
+            <Entry x:Name="entry2" Placeholder="Digite el peso en kg"
+                   Margin="10"/>
 
-        <Entry x:Name="entry2" Placeholder="Digite el peso en kg"
-       BackgroundColor="Gray" Margin="10"/>
-
-
-        <Entry x:Name="entry3" Placeholder="Gasolina a oagar en galones"
-BackgroundColor="Gray" Margin="10"/>
-
-    </VerticalStackLayout>
+            <Entry x:Name="entry3" Placeholder="Gasolina a pagar en galones:"
+                   Margin="10"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

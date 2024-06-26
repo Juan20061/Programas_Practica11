@@ -4,31 +4,27 @@
              x:Class="Programas3716370.Dinosaurio"
              Title="Dinosaurio">
 	<ScrollView>
-		<VerticalStackLayout>
-            <Label
-				Text="Dinosaurio"
-				VerticalOptions="Center"
-				HorizontalOptions="Center" />
-
+        <VerticalStackLayout>
             <Image
                 Source="din.png"
                 Margin="10"
                 VerticalOptions="Center"
                 WidthRequest="500"/>
+            
             <Entry x:Name="entry1" Placeholder="Digite el nombre"
-				   BackgroundColor="Gray" Margin="10"/>
+				   Margin="10"/>
 
 			<Entry x:Name="entry2" Placeholder="Digite el peso en kg"
-				   BackgroundColor="Gray" Margin="10"/>
+				   Margin="10"/>
 
 
 			<Entry x:Name="entry3" Placeholder="Digite la altura en mts"
-				   BackgroundColor="Gray" Margin="10"/>
+				   Margin="10"/>
 
-			<Button Text="Calcular" Clicked="Button_Clicked"/>
+			<Button Text="Calcular" Clicked="Button_Clicked" Margin="10"/>
 
-			<Label x:Name="labelResultadoPeso" Text="El peso en libras es: " FontSize="Medium"/>
-			<Label x:Name="labelResultadoAltura" Text="La altura en centímetros es: " FontSize="Medium"/>
+			<Label x:Name="labelResultadoPeso" Margin="10" Text="El peso en libras es: " FontSize="Subtitle"/>
+            <Label x:Name="labelResultadoAltura" Margin="10" Text="La altura en centímetros es: " FontSize="Subtitle"/>
 			
 		</VerticalStackLayout>
 	</ScrollView>
