@@ -10,7 +10,7 @@
             HorizontalOptions="Center"
             Margin="10"/>
         <Image
-            Source="gitHub.png"
+            Source="github.png"
             WidthRequest="400"
             VerticalOptions="Center"
             Margin="10"/>
