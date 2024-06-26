@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Programas3716370.NewPage1"
-             Title="NewPage1">
+             x:Class="Programas3716370.About"
+             Title="About">
     <VerticalStackLayout>
         <Label 
             Text="Bienvenidos a nuestra Aplicación"
@@ -13,7 +13,7 @@
             Source="gitHub.png"
             WidthRequest="400"
             VerticalOptions="Center"
-            Margin="10"/>   
+            Margin="10"/>
         <Label
             VerticalOptions="Center"
             HorizontalOptions="Center"

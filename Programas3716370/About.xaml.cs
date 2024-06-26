@@ -1,8 +1,8 @@
 namespace Programas3716370;
 
-public partial class NewPage1 : ContentPage
+public partial class About : ContentPage
 {
-	public NewPage1()
+	public About()
 	{
 		InitializeComponent();
 	}
