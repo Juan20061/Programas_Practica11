@@ -16,8 +16,7 @@
              Margin="10"
              BorderWidth="5"
              BorderColor="Black"
-             FontSize="Medium"
-                />
+             FontSize="Medium"/>
 
         <Button 
             Text="Triangulo"
