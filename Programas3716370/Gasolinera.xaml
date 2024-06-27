@@ -5,7 +5,7 @@
              Title="Gasolinera">
     <ScrollView>
         <VerticalStackLayout>
-
+  
             <Image Source="gasolin.png"
                    WidthRequest="400"
                    VerticalOptions="Center"

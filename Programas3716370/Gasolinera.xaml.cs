@@ -10,7 +10,7 @@ public partial class Gasolinera : ContentPage
     public Gasolinera()
 	{
 		InitializeComponent();
-	}
+	}   
 
     private void Button_Clicked(object sender, EventArgs e)
     {
