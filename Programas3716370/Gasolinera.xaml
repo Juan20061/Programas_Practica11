@@ -10,14 +10,11 @@
                    WidthRequest="400"
                    VerticalOptions="Center"
                    Margin="10"/>
-            
+
             <Entry x:Name="entry1" Placeholder="Digite los galones "
                    Margin="10"/>
 
-            <Entry x:Name="entry2" Placeholder="Digite el peso en kg"
-                   Margin="10"/>
-
-            <Entry x:Name="entry3" Placeholder="Gasolina a pagar en galones:"
+            <Entry x:Name="entry2" Placeholder="los litros que equivale y el precio:"
                    Margin="10"/>
 
             <Button 
