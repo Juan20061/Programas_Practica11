@@ -19,6 +19,10 @@
 
             <Entry x:Name="entry3" Placeholder="Gasolina a pagar en galones:"
                    Margin="10"/>
+
+            <Button 
+                Text="Ver resultado"
+                Clicked="Button_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
