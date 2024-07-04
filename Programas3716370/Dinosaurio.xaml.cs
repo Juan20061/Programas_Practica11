@@ -7,7 +7,11 @@ public partial class Dinosaurio : ContentPage
 		InitializeComponent();
 	}
 
-
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void Button_Clicked(object sender, EventArgs e)
     {
         if (!string.IsNullOrEmpty(entry1.Text) &&
