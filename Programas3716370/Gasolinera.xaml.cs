@@ -12,6 +12,11 @@ public partial class Gasolinera : ContentPage
 		InitializeComponent();
 	}   
 
+    /// <summary>
+    /// Al presionar este boton hara una conversion de galones a litros dependendiendo
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void Button_Clicked(object sender, EventArgs e)
     {
         double galones;
