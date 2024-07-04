@@ -18,6 +18,7 @@ public partial class Gasolinera : ContentPage
     {
         if (double.TryParse(entry1.Text, out double galones))
         {
+            //variables que contienen el proceso de conversion  de galones a litros y asignacion del precio dependiendo los galones
             double litros = galones * 3.78541; 
             double precioPorGalon = 3.60; 
             double precioTotal = galones * precioPorGalon;
