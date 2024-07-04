@@ -4,6 +4,7 @@
              x:Class="Programas3716370.Gasolinera"
              Title="Gasolinera">
     <ScrollView>
+        
         <VerticalStackLayout>
   
             <Image Source="gasolin.png"
