@@ -8,7 +8,7 @@ public partial class Dinosaurio : ContentPage
 	}
 
     /// <summary>
-    /// 
+    /// Dinosautio
     /// </summary>
     /// <param name="sender"></param>
     /// <param name="e"></param>
